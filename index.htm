@@ -30,12 +30,17 @@ a, a:visited { color:#000; text-decoration:none; }
   <div class="main_inner">
     <div class="info">
       <div id="cmpinfo">loading ...</div>
-      <p>可业杂货铺不定时分享一些开心的资源</p>
-      <p><a href="https://keyestore.github.io/" target="_blank">可业杂货铺</a></p>
+      <p>可业杂货铺不定时分享一些开心资源</p>
+      <p>交流论坛：<a href="https://keyestore.github.io/" target="_blank">https://keyestore.github.io/</a></p>
     </div>
   </div>
 </div>
+<script>
 
+//id, width, height, swf_url, flashvars, params, attrs
+var htm = CMP.create("cmp", "100%", "100%", "cmp.swf", flashvars);
+document.getElementById("player").innerHTML = htm;
+</script>
 <div class="foot">
   <div class="foot_inner">© 2020 <a href="https://keyestore.github.io/" target="_blank">可业杂货铺</a> All Rights Reserved</div>
 </div>
