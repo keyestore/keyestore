@@ -11,7 +11,7 @@ CMP4配置文件
 	description = "『生活需要音乐』 - https://keyestore.github.io/"
 	logo = "{src:logo.png,xywh:[10R,10R,0,0]}"
 	
-	skins = "skins/default.zip,skins/xdj.zip,skins/qqplayer.zip,skins/wmp11.zip,skins/exobud.zip,skins/tudou.zip,skins/mini/vplayer.zip"
+	skins = "skins/mini/vplayer.zip,skins/default.zip,skins/xdj.zip,skins/qqplayer.zip,skins/wmp11.zip,skins/exobud.zip,skins/tudou.zip"
 	plugins = ""
 	backgrounds = ""
 	lists = ""
