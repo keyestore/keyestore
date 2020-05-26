@@ -21,19 +21,16 @@ CMP4配置文件
 
 	skin_id = ""
 
-	play_id = "true"
-	auto_play = "true"
 	play_mode = "1"
+	play_id = "1"
+	auto_play = "1"
 	list_delete = ""
 	
 	sound_sample = "true"
 	mixer_displace = "true"
-	mixer_filter = "true"
-	
+	mixer_filter = "true"	
 	mixer_id = "5"
 	mixer_color = "a4eb0c"
-	mixer_displace = "1"
-	mixer_filter = "1"
 	
 	counter = "http://img.users.51.la/3389672.asp"
 />
