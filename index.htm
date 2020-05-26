@@ -44,9 +44,7 @@ function cmp_loaded(key) {
 		var config = cmpo.config();
 		document.title = config.name;
 		var arr = [];
-		arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' +　config.name + '</a>');
-		arr.push('<b>CMP version:</b> ' +　config.version);
-		arr.push('<b>flash version:</b> ' +　config.flash_version);
+		arr.push('<b>Name:</b> <a href="' + config.link + '" target="_blank">' +　config.name + '</a>');
 		var cmpinfo = arr.join("<br />");
 		document.getElementById("cmpinfo").innerHTML = cmpinfo;
 	}
