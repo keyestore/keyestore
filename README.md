@@ -1,7 +1,7 @@
 # gitblog
 这是一个极轻量级的，基于git issue的个人博客模板，非常适合于想在GitHub pages上搭建个人博客的人。
 
-[示例页面](https://imuncle.github.io/gitblog)
+[示例页面](https://keyestore.github.io/)
 
 [English](README_en.md)
 
@@ -21,7 +21,7 @@
 
 可以在GitHub上为每个文章指定标签label。
 
-404页面模仿了GitHub自己的404页面，可点击[这里](https://imuncle.github.io/anything)查看404页面示例。
+404页面模仿了GitHub自己的404页面，可点击[这里](https://keyestore.github.io/anything)查看404页面示例。
 
 ## 如何开始
 

@@ -1,7 +1,7 @@
 # gitblog
 This is a very small personal blog template bsaed on git issues for anyone who wants to build a personal blog on GitHub pages.
 
-[Demo page](https://imuncle.github.io/gitblog)
+[Demo page](https://keyestore.github.io/)
 
 [中文](README.md)
 
@@ -25,7 +25,7 @@ You can set labels for each article in Github issues page.
 You can **Fork** or **clone** this repo. Then you can customize by yourself.
 
 ### Get Github OAuth APP
-Click [here](https://github.com/settings/applications/new) to get a Github OAuth APP. Be sure that the **callback URL** is your own home website, such as 'https://imuncle.github.io' .
+Click [here](https://github.com/settings/applications/new) to get a Github OAuth APP. Be sure that the **callback URL** is your own home website, such as 'https://keyestore.github.io/' .
 
 You'll get **client_id** and **client_secret** finally.
 
