@@ -31,7 +31,7 @@ a, a:visited { color:#000; text-decoration:none; }
     <div class="info">
       <div id="cmpinfo">loading ...</div>
       <p>可业杂货铺不定时分享一些开心资源</p>
-      <p>交流论坛：<a href="https://keyestore.github.io/" target="_blank">https://keyestore.github.io/</a></p>
+      <p><a href="https://keyestore.github.io/" target="_blank">https://keyestore.github.io/</a></p>
     </div>
   </div>
 </div>
@@ -44,9 +44,9 @@ function cmp_loaded(key) {
 		var config = cmpo.config();
 		document.title = config.name;
 		var arr = [];
-		//arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' +　config.name + '</a>');
-		//arr.push('<b>CMP version:</b> ' +　config.version);
-		//arr.push('<b>flash version:</b> ' +　config.flash_version);
+		arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' +　config.name + '</a>');
+		arr.push('<b>CMP version:</b> ' +　config.version);
+		arr.push('<b>flash version:</b> ' +　config.flash_version);
 		var cmpinfo = arr.join("<br />");
 		document.getElementById("cmpinfo").innerHTML = cmpinfo;
 	}
