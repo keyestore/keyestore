@@ -36,7 +36,24 @@ a, a:visited { color:#000; text-decoration:none; }
   </div>
 </div>
 <script>
-
+function cmp_loaded(key) {
+	//cmp loaded
+	var cmpo = CMP.get("cmp");
+	if (cmpo) {
+		//cmp callback
+		var config = cmpo.config();
+		document.title = config.name;
+		var arr = [];
+		//arr.push('<b>CMP name:</b> <a href="' + config.link + '" target="_blank">' +　config.name + '</a>');
+		//arr.push('<b>CMP version:</b> ' +　config.version);
+		//arr.push('<b>flash version:</b> ' +　config.flash_version);
+		var cmpinfo = arr.join("<br />");
+		document.getElementById("cmpinfo").innerHTML = cmpinfo;
+	}
+}
+var flashvars = {
+	api : "cmp_loaded"
+};
 //id, width, height, swf_url, flashvars, params, attrs
 var htm = CMP.create("cmp", "100%", "100%", "cmp.swf", flashvars);
 document.getElementById("player").innerHTML = htm;
