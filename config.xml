@@ -9,7 +9,7 @@ CMP4配置文件
 	name = "可业杂货铺" 
 	link = "https://keyestore.github.io/" 
 	description = "『生活需要音乐』 - https://keyestore.github.io/"
-	//logo = "{src:logo.png,xywh:[10R,10R,0,0]}"
+	logo = "{src:logo.png,xywh:[0R,0R,0,0]}"
 	
 	skins = "skins/mini/vplayer.zip,skins/default.zip,skins/xdj.zip,skins/qqplayer.zip,skins/wmp11.zip,skins/exobud.zip,skins/tudou.zip"
 	plugins = ""
@@ -21,13 +21,19 @@ CMP4配置文件
 
 	skin_id = ""
 
-	play_id = "true"
-	auto_play = "true"
+	play_mode = "1"
+	play_id = ""
+	auto_play = "1"
 	list_delete = ""
 	
 	sound_sample = "true"
 	mixer_displace = "true"
 	mixer_filter = "true"
+	
+	mixer_id = "5"
+	mixer_color = "a4eb0c"
+	mixer_displace = "1"
+	mixer_filter = "1"
 	
 	counter = "http://img.users.51.la/3389672.asp"
 />
