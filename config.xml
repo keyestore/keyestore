@@ -19,11 +19,11 @@ CMP4配置文件
 	src_handler = "" 
 	lrc_handler = ""
 
-	skin_id = ""
+	skin_id = "1"
 
 	play_mode = "1"
 	play_id = ""
-	auto_play = "1"
+	auto_play = "true"
 	list_delete = ""
 	
 	sound_sample = "true"

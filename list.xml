@@ -6,5 +6,5 @@ CMP音乐列表文件
 更多详细参数说明，请参见CMP交流论坛http://bbs.cenfun.com/
 -->
 <list>
-  <m type="" src="music/daoxiang.mp3" lrc="lrc/daoxiang.txt" label="稻香" />
+  <m type="" src="music/daoxiang.mp3" lrc="lrc/0.txt" label="稻香" />
 </list>
