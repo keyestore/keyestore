@@ -22,8 +22,8 @@ CMP4配置文件
 	skin_id = "1"
 
 	play_mode = "1"
-	play_id = ""
-	auto_play = "true"
+	play_id = "1"
+	auto_play = "1"
 	list_delete = ""
 	
 	sound_sample = "true"
