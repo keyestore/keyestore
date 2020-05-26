@@ -6,5 +6,5 @@ CMP音乐列表文件
 更多详细参数说明，请参见CMP交流论坛http://bbs.cenfun.com/
 -->
 <list>
-  <m type="" src="http://music.163.com/song/media/outer/url?id=32688044.mp3" lrc="lrc/lrc.txt" label="1,MP3音乐测试" />
+  <m type="" src="music/daoxiang.mp3" lrc="lrc/lrc.txt" label="稻香" />
 </list>
