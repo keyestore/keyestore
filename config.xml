@@ -6,12 +6,12 @@ CMP4配置文件
 更多详细参数说明，请参见CMP交流论坛http://bbs.cenfun.com/
 -->
 <cmp 
-	name = "『生活需要音乐』" 
+	name = "可业杂货铺" 
 	link = "https://keyestore.github.io/" 
 	description = "『生活需要音乐』 - https://keyestore.github.io/"
 	logo = "{src:logo.png,xywh:[10R,10R,0,0]}"
 	
-	skins = "skins/mini/vplayer.zip,skins/default.zip,skins/xdj.zip,skins/qqplayer.zip,skins/wmp11.zip,skins/exobud.zip,skins/tudou.zip"
+	skins = "skins/default.zip,skins/xdj.zip,skins/qqplayer.zip,skins/wmp11.zip,skins/exobud.zip,skins/tudou.zip,skins/mini/vplayer.zip"
 	plugins = ""
 	backgrounds = ""
 	lists = ""
@@ -19,10 +19,10 @@ CMP4配置文件
 	src_handler = "" 
 	lrc_handler = ""
 
-	skin_id = "1"
+	skin_id = ""
 
 	play_id = ""
-	auto_play = "1"
+	auto_play = "true"
 	list_delete = ""
 	
 	sound_sample = "true"
